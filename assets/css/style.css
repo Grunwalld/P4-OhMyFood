@@ -121,19 +121,26 @@
   
   section.location {
     height: 50px;
+    color: #353535;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--theme-gray);
   }
-  section.location p {
-    width: 109px;
-    font-size: 16px;
+  
+  section.location h2 i {
+    left: -17px;
+    top: -2px;
     position: relative;
+   
   }
-  section.location p i {
-    left: -29px;
-    position: absolute;
+
+  section.location h2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 0 10px;
+    position: relative;
   }
 
   /****information section****/
